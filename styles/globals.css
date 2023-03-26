@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro");
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Crimson Pro";
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+/* menu bar styling */
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fc619c;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-left: 12px;
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%;
+}
+/* menu bar styling */
+
+/*  mobile bar query  */
+@media only screen and (max-width: 600px) {
+  footer {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fc619c;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+  }
+}

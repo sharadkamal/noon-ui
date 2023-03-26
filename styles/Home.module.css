@@ -1,0 +1,64 @@
+.movieTitle {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 25px;
+  color: white;
+  float: left;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.proPicContainer {
+  margin-bottom: 10px;
+}
+
+.movieContainer {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+.favIcon {
+  position: relative;
+  float: right;
+  margin-top: -60px;
+  margin-right: 20px;
+}
+
+.likeCounter {
+  padding-top: 0px;
+  padding-left: 9px;
+  position: absolute;
+  font-weight: 700;
+  color: #4979ff;
+}
+
+.likeContainer {
+  margin-top: 10px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.descriptionText {
+  color: gray;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.commentContainer {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+@media (min-width: 480px) {
+  .deskMargin {
+    margin-top: 100px;
+  }
+}

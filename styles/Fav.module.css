@@ -1,0 +1,15 @@
+.fav {
+  background: #fff;
+  padding: 2px 16px;
+  display: block;
+  margin: 25px 15px;
+}
+
+.fav :hover {
+  border-left: 8px solid #059b00;
+}
+
+.iconContainer {
+  margin-right: 10px;
+  float: right;
+}
