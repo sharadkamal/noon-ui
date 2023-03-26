@@ -5,7 +5,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import Head from "next/head";
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3001/noon-api/get-all");
+  const res = await fetch("https://noon-api.vercel.app/noon-api/get-all");
   const data = await res.json();
 
   return {
@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 
 const Calls = ({ call }) => {
   const addLike = async (posted) => {
-    return await fetch("http://localhost:3001/noon-api/checked-like", {
+    return await fetch("https://noon-api.vercel.app/noon-api/checked-like", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",

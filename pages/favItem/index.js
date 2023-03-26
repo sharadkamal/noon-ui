@@ -6,7 +6,7 @@ import styles from "../../styles/Fav.module.css";
 import HomeStyle from "../../styles/Home.module.css";
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3001/noon-api/get-all-liked");
+  const res = await fetch("https://noon-api.vercel.app/noon-api/get-all-liked");
   const data = await res.json();
 
   return {
@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 };
 
 const RemoveLike = async (call) => {
-  return await fetch("http://localhost:3001/noon-api/checked-like", {
+  return await fetch("https://noon-api.vercel.app/noon-api/checked-like", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
